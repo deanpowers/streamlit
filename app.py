@@ -1,4 +1,4 @@
-#version 12.1
+#version 12.2
 
 import streamlit as st
 import yfinance as yf
