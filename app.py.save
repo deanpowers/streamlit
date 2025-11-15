@@ -1,0 +1,4 @@
+File "/Users/deanpowers/Desktop/crypto_trading_app/app.py", line 138
+              position = "Bearish BTC, Bullish ETH"
+                                                   ^
+SyntaxError: expected 'except' or 'finally' blockFile

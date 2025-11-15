@@ -1,0 +1,15 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
+
+[variables]
+PORT = "8501"
+
+[build]
+builder = "RAILPACK"
+# You can set a specific Railpack version, e.g., railpackVersion = "0.7.0"
+
+[deploy]
+startCommand = "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
