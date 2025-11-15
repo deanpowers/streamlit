@@ -1,5 +1,5 @@
-echo '[build]
+[build]
 builder = "RAILPACK"
 
 [deploy]
-startCommand = "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"' > railway.tomlstartCommand = "streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.fileWatcherType none"
+startCommand = "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
