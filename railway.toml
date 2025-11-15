@@ -1,5 +1,5 @@
 [build]
-builder = "RAILPACK"
+builder = "nixpacks"
 
 [deploy]
 startCommand = "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
